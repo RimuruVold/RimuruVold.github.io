@@ -3,7 +3,7 @@
     padding: 0;
     font-family: 'Poppins', Sans-Serif;
     box-sizing: border-box;
-    background-image: url("Bc.png");
+    background-image: url("Bc.webp");
     background-repeat: no-repeat-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -41,7 +41,7 @@
 
 .menu ul > li {
     list-style-type: none;
-    color: rgb(224, 255, 255);
+    color: #000080;
     padding: 20px;
 }
 
@@ -126,7 +126,7 @@ a {
     padding: 17px;
     margin-top: 13px;
     align-items: center;
-    color: rgb(224, 255, 255);
+    color: #000080;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 4);
 }
 
@@ -248,10 +248,10 @@ a {
   font-size: 1.56rem;
   margin: 30px 0 5px;
   text-align: center;
-  color: #fff;
+  color: #000080;
 }
 .carousel .card span {
-  color: #fff;
+  color: #000080;
   font-size: 1.31rem;
 }
 
@@ -292,7 +292,7 @@ a {
     display: flex;
     flex-direction: column;
     align-content: center;
-    color: rgb(224, 255, 255);
+    color: #000080;
     text-align: center;
 }
 
@@ -376,7 +376,7 @@ a {
     width: 25%;
     height: 100%;
     background-color: #70d6ff;
-    color: rgb(224, 255, 255);
+    color: #000080;
     border-radius: 12px;
     margin-right: 35px;
     margin-bottom: 25px;
@@ -423,7 +423,7 @@ a {
     background-color: #70d6ff;
     border-radius: 10px;
     margin-bottom: 15px;
-    color: rgb(224, 255, 255);
+    color: #000080;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 4);
 }
 
@@ -446,7 +446,7 @@ a {
 
 .c-isi-berita {
     background-color: #70d6ff;
-    color: rgb(224, 255, 255);
+    color: #000080;
     margin: 13px;
     border-radius: 7px;
     padding: 10px;
@@ -499,7 +499,7 @@ a {
     height: 100%;
     width: 25%;
     background-color: #70d6ff;
-    color: rgb(224, 255, 255);
+    color: #000080;
     border-radius: 12px;
     margin: 15px;
     margin-bottom: 25px;
@@ -511,26 +511,4 @@ a {
     margin: 0;
     font-size: 20px;
     text-align: center;
-}
-
-/*UKURAN HP*/
-@media (max-width: 900px) {
-    body {
-        background-image: url('BcHp.png');
-    }
-    
-    .container {
-    display: flex;
-    justify-content: space-between;
-    background-color: #70d6ff;
-    flex-direction: column;
-    margin: 27px;
-    padding: 17px;
-    align-items: center;
-    text-align: center;
-}
-
-    .sambutan h1 {
-    font-size: 60px;
-}
 }
