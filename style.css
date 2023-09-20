@@ -53,9 +53,7 @@ a {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 100%;
-  max-height: 100%;
-  width: 1600px;
+  width: 900px;
   height: 300px;
   position: relative;
   margin: auto;
@@ -146,6 +144,12 @@ a {
 
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
+  .slideshow-container {
+    max-width: 100%;
+    max-height: 10%;
+    position: relative;
+    margin: auto;
+  }
   .logo img {
     height: 300px;
     width: 300px;
