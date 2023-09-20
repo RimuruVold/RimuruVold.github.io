@@ -8,12 +8,6 @@
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none; /* Safari */
-  -khtml-user-select: none; /* Konqueror HTML */
-  -moz-user-select: none; /* Old versions of Firefox */
-  -ms-user-select: none; /* Internet Explorer/Edge */
-  user-select: none; /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
 }
 
 /*NAVIGASI*/
@@ -61,6 +55,8 @@ a {
 .slideshow-container {
   max-width: 100%;
   max-height: 100%;
+  width: 1600px;
+  height: 300px;
   position: relative;
   margin: auto;
 }
@@ -106,22 +102,6 @@ a {
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
 }
 
 /*KONTEN*/
@@ -134,7 +114,6 @@ a {
     margin-top: 13px;
     align-items: center;
     color: #000080;
-    box-shadow: 2px 2px 20px rgba(0, 0, 0, 4);
 }
 
 .suster {
@@ -145,7 +124,7 @@ a {
 
 .suster img {
     width: 300px;
-    height: auto;
+    height: 400px;
 }
 
 .sambutan h1 {
@@ -166,8 +145,8 @@ a {
 }
 
 .form img {
-    height: auto;
-    width: 40%;
+    height: 42%;
+    width: 37%;
     padding: 30px;
 }
 
@@ -220,7 +199,7 @@ a {
    }
    .suster img {
     width: 200px;
-    height: auto;
+    height: 270px;
     display: flex;
    }
 
@@ -272,7 +251,6 @@ a {
   line-height: 50px;
   background: #fff;
   border-radius: 50%;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.23);
   transform: translateY(-50%);
   transition: transform 0.1s linear;
 }
@@ -323,8 +301,6 @@ a {
   cursor: pointer;
   padding-bottom: 15px;
   flex-direction: column;
-  border-radius: 8px;
-  box-shadow:0.7px 0.7px 10px rgba(0, 0, 0, 4);
 }
 .carousel .card .img {
   height: 180px;
@@ -333,7 +309,6 @@ a {
 .card .img img {
   width: 265px;
   height: 210px;
-  border-radius: 18px, 18px, 18px, 18px;
   padding-top: 19px;
 }
 .carousel .card h2 {
@@ -478,7 +453,6 @@ a {
     border-radius: 12px;
     margin-right: 35px;
     margin-bottom: 25px;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 4);
 }
 
 .guru img {
@@ -522,7 +496,6 @@ a {
     border-radius: 10px;
     margin-bottom: 15px;
     color: #000080;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 4);
 }
 
 .news img {
@@ -548,7 +521,6 @@ a {
     margin: 13px;
     border-radius: 7px;
     padding: 10px;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 4);
 }
 
 .c-isi-berita h1 {
@@ -601,7 +573,6 @@ a {
     border-radius: 12px;
     margin: 15px;
     margin-bottom: 25px;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 4);
 }
 
 .about p {
