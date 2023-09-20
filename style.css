@@ -158,16 +158,101 @@ a {
 
 .formulir {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     border: 8px solid #70d6ff;
     border-radius: 15px;
     margin: 27px;
 }
 
 .form img {
-    height: 50vw;
-    width: 35vw;
+    height: auto;
+    width: 40%;
     padding: 30px;
+}
+
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .logo img {
+    height: 300px;
+    width: 300px;
+    top: 50%;
+  }
+  .form img {
+    padding:5px;
+  }
+  .navigasi {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .menu {
+    justify-content: center;
+    font-size: 27px;
+    align-items: center;
+    display: flex;
+  }
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu ul > li {
+    list-style-type: none;
+    color: #000080;
+    padding: 20px;
+    display: flex;
+}
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 7px;
+    margin-top: 13px;
+    align-items: center;
+    max-width: 100%;
+   }
+   .suster {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   }
+   .suster img {
+    width: 200px;
+    height: auto;
+    display: flex;
+   }
+
+   .sambutan h1 {
+    font-size: 30px;
+   }
+
+   .sambutan p {
+    font-size: 15px;
+   }
+   .formulir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 8px solid #70d6ff;
+    border-radius: 15px;
+    margin: 7px;
+   }
+   .video {
+    margin-bottom: 10px;
+   }
+   .video h1 {
+    font-size: 30px;
+   }
+   video{
+    width: 100%;
+    height: 250px;
+   }
+   .mep {
+       width: 300px; 
+       height: 250px;
+   }
 }
 
 /*SCROLL NEWS*/
@@ -524,4 +609,4 @@ a {
     margin: 0;
     font-size: 20px;
     text-align: center;
-}
+    }
